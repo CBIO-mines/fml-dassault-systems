@@ -1,0 +1,16 @@
+name: introml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13.2
+  - ipython
+  - jupyterlab
+  - pandas>=2.2.3
+  - numpy
+  - scipy
+  - matplotlib
+  - nbstripout
+  - scikit-learn=1.6.1
+  - seaborn>=0.13.2
+
