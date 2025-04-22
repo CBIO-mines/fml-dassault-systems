@@ -15,6 +15,7 @@ Pour utiliser les même librairies, utilisez le fichier `package_list.yml` :
 ```bash
    conda env create -f package_list.yml -n introml
    conda activate introml
+   pip install torch --index-url https://download.pytorch.org/whl/cpu
 ```
 
 ## Contenus
@@ -22,6 +23,7 @@ Pour utiliser les même librairies, utilisez le fichier `package_list.yml` :
 * Cours 2 : sélection de modèle, régularisation
 * Cours 3 : réduction de dimension et clustering
 * Cours 4 : arbres et modèles ensemblistes
+* Cours 5 : entrainement de réseaux de neurones
 
 
 ## Utilisation avancée (git et nbstripout)
